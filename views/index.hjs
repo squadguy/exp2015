@@ -1,0 +1,13 @@
+<!-- This is the root route for the application -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>{{ title }}</h1>
+    <p>I am {{ age }} years old.</p>
+  </body>
+</html>
