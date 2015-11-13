@@ -7,7 +7,7 @@
 	with data from file "primer-dataset.json" located in the project's root directory.  
 	
 	In addition to the requires from express-generator, there is an additional require for
-	Mongoose.  The absolute connection for the Get request is 127.0.0.1:27017/test.
+	Mongoose.  The absolute path for the Get request is 127.0.0.1:27017/test.
 
 	Once application is running use localhost:3000/users to retrieve the JSON from the user
 	collection in the test database.
