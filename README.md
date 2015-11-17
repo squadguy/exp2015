@@ -3,7 +3,7 @@
 	This ExpressJS application purpose is to connect to a MongoDB and return JSON.
 	
 	Application requires a MongoDB running on 127.0.0.1:27017.  Machine must have a database
-	called "test", which contains a collection name "user."  Collection "user" can be stocked
+	called "test", which contains a collection name "users."  Collection "users" can be stocked
 	with data from file "primer-dataset.json" located in the project's root directory.  
 	
 	In addition to the requires from express-generator, there is an additional require for
