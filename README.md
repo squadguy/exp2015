@@ -9,8 +9,9 @@
 	In addition to the requires from express-generator, there is an additional require for
 	Mongoose.  The absolute path for the mongoose connection is 127.0.0.1:27017/test.
 
-	Once application is running use localhost:3000/users to retrieve the JSON from the user
-	collection in the test database.
+	In development environment use DEBUG=exp2015:* npm start to start local server and
+	debugging.  Once application is running use localhost:3000/users to retrieve the
+	JSON from the user collection in the test database.
 
 	An additional feature is the applications / path.  If you query localhost:3000/, the
 	application will route you to an index.html page with hogan templating.  Please note

@@ -1,4 +1,3 @@
-// JSON data used to prime the users collection in test db
 {
 	"name": "chris",
 	"age": "108"
